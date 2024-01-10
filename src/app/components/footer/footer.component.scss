@@ -1,0 +1,65 @@
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;    
+    max-width: 90%;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.icons {    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 80px; 
+}
+
+.icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.icons i {
+    color: white;
+    font-size: 22px;
+    transition: all 0.2s ease-in;
+}
+
+.icons a:hover {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.copyrigth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.logo {    
+    font-size: large;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+

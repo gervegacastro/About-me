@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    min-height: 350px;    
+    background-color: rgb(0, 0, 0);
+}
+
+.section-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;    
+    background-color: rgb(12, 155, 160);
+}
+
+.div-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px;
+        min-height: 300px;
+        max-width: 75%;
+        min-width: 75%;
+        border-radius: 10px;        
+        background-color: rgb(34, 34, 34);
+}
+
+.section-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+.texto-negro {
+    color: black;
+}
